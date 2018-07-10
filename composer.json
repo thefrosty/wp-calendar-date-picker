@@ -1,0 +1,19 @@
+{
+  "name": "thefrosty/wp-calendar-date-picker",
+  "description": "Show the jQuery UI datepicker on an input box next to the 'edit date' for exact date and time selection.",
+  "version": "2.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Austin Passy",
+      "email": "thefrosty@users.noreply.github.com",
+      "homepage": "https://austin.passy.co",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.0"
+  }
+}
