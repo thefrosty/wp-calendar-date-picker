@@ -3,7 +3,7 @@
  * Plugin Name: Calendar Date Picker
  * Plugin URI: https://github.com/thefrosty/wp-calendar-date-picker
  * Description: Show the <a href="http://jqueryui.com/">jQuery UI</a> <a href="http://jqueryui.com/datepicker/">Datepicker</a> on an input box next to the 'edit date' for exact date and time selection. Required javascript to be enabled. Uses <a href="http://trentrichardson.com/examples/timepicker/">Timepicker</a> by <a href="http://trentrichardson.com/">Trent Richardson</a>.
- * Version: 2.0.0
+ * Version: 2.0.1
  * Author: Austin Passy
  * Author URI: https://austin.passy.co
  *
