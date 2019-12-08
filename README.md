@@ -7,8 +7,8 @@ Show the jQuery UI datepicker on an input box next to the 'edit date' for exact 
 ### Requirements
 
 ```
-PHP >= 7
-WordPress >= 4.9
+PHP >= 7.1
+WordPress >= 5.0
 ```
 
 The required WordPress version will always be the most recent point release of

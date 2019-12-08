@@ -33,10 +33,11 @@
   };
 
   component.setDateTimePicker = function () {
-    $('input[name="fulldate"]').datetimepicker({
-      dateFormat: "mm/dd/yy",
-      timeFormat: "HH:mm",
-      onSelect: function (dateText) {
+    var fullDate = $('input[name="fulldate"]');
+    flatpickr(fullDate, {
+      enableTime: true,
+      dateFormat: "Y-m-d H:i",
+      onChange: function(selectedDates, dateStr, instance) {
         /**
          * Replace the space between the date and time.
          * Replace the colon with a forward slash.
@@ -45,7 +46,8 @@
          * @ref http://stackoverflow.com/questions/5177702/how-to-break-date-values-in-jquery-ui-date-picker
          * @ref http://stackoverflow.com/questions/5963182/how-to-remove-spaces-from-a-string-using-javascript
          */
-        component.dateText = dateText;
+        console.log(selectedDates, dateStr);
+        component.dateText = selectedDates;
         component.dateText = component.dateText.replace(/\s+/g, '/');
         component.dateText = component.dateText.replace(':', '/');
         component.dateText = component.dateText.split('/');
@@ -55,7 +57,7 @@
         component.$year.val(component.dateText[2]);
         component.$hour.val(component.dateText[3]);
         component.$minute.val(component.dateText[4]);
-      }
+      },
     });
 
     // Wrap date picker in class to narrow the scope of jQuery UI CSS and prevent conflicts

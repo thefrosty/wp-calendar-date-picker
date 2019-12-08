@@ -1,0 +1,25 @@
+{
+  "name": "wp-calendar-date-picker",
+  "version": "2.1.0",
+  "description": "Show a powerful datetime picker on an input box next to the 'edit date' for exact date and time selection.",
+  "dependencies": {
+    "flatpickr": "^4.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thefrosty/wp-calendar-date-picker.git"
+  },
+  "keywords": [
+    "wordpress"
+  ],
+  "author": "Austin Passy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thefrosty/wp-calendar-date-picker/issues"
+  },
+  "homepage": "https://github.com/thefrosty/wp-calendar-date-picker#readme"
+}
